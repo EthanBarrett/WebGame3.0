@@ -1,3 +1,3 @@
-@cd D:\nodeProject\myGame
-@set PATH=D:\nodejs;%PATH%
+@cd D:\WebGame3.0\nodejsProjectPackage\nodejsProject
+@set PATH=D:\WebGame3.0\nodejsProjectPackage\nodejs;%PATH%
 @cmd.exe /K

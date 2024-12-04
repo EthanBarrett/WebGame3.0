@@ -59,6 +59,6 @@ class __TwigTemplate_83b7edb28efadff89708a61b4f83ec6e extends Template
 
     public function getSourceContext()
     {
-        return new Source("", "database/structure/collation_definition.twig", "D:\\xampp\\phpMyAdmin\\templates\\database\\structure\\collation_definition.twig");
+        return new Source("", "database/structure/collation_definition.twig", "D:\\WebGame3.0\\nodejsProjectPackage\\xampp\\phpMyAdmin\\templates\\database\\structure\\collation_definition.twig");
     }
 }

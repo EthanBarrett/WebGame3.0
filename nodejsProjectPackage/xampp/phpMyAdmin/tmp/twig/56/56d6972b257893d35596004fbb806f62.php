@@ -88,6 +88,6 @@ class __TwigTemplate_d0ef24e160ad4910dd6d1da52b65d2ef extends Template
 
     public function getSourceContext()
     {
-        return new Source("", "console/toolbar.twig", "D:\\xampp\\phpMyAdmin\\templates\\console\\toolbar.twig");
+        return new Source("", "console/toolbar.twig", "D:\\WebGame3.0\\nodejsProjectPackage\\xampp\\phpMyAdmin\\templates\\console\\toolbar.twig");
     }
 }
