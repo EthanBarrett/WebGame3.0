@@ -24,8 +24,10 @@ let right = false; //button right
 let changed = false; //colour change
 
 const scene = new THREE.Scene();
-const camera = new THREE.PerspectiveCamera( 75, window.innerWidth / window.innerHeight, 0.1, 10000 );
-
+const camera = new THREE.PerspectiveCamera( 85, window.innerWidth / window.innerHeight, 0.1, 10000 );
+//change camera position
+camera.position.z = 80;
+camera.position.y = 50;
 
 const renderer = new THREE.WebGLRenderer();
 renderer.setSize( window.innerWidth, window.innerHeight );
@@ -35,35 +37,39 @@ document.body.appendChild( renderer.domElement );
 
 
 //head
-const geometry = new THREE.SphereGeometry( 5, 15, 6 ); 
+const geometry = new THREE.ConeGeometry( 5, 15, 32 ); 
 const material = new THREE.MeshBasicMaterial( { color: 0x00FFFF } ); 
 const Head = new THREE.Mesh( geometry, material ); 
-Head.position.y = 4.8;
+Head.position.y = 3;
+Head.position.z = -13;
+Head.rotation.x = 11;
 //body
-const geometry1 = new THREE.CapsuleGeometry( 4, 4, 16, 32 ); 
-const material1 = new THREE.MeshBasicMaterial( {color: 0x000000} ); 
+const geometry1 = new THREE.CapsuleGeometry( 6, 5, 16, 32 ); 
+const material1 = new THREE.MeshBasicMaterial( {color: 0x0ff000} ); 
 const Body = new THREE.Mesh( geometry1, material1 );
-Body.position.y = -5;
+Body.position.y = 3;
+Body.rotation.x = 11;
 //rightarm
-const geometry2 = new THREE.BoxGeometry( 3, 7, 2.5 ); 
+const geometry2 = new THREE.BoxGeometry( 5, 7, 4 ); 
 const material2 = new THREE.MeshBasicMaterial( {color: 0x00fff0} ); 
 const RightArm = new THREE.Mesh( geometry2, material2 ); 
-RightArm.position.x = 6;
-RightArm.position.y = -4;
+RightArm.position.x = 7;
+RightArm.position.y = 3;
 RightArm.rotation.z = 0.5;
 //leftarm
-const geometry3 = new THREE.BoxGeometry( 3, 7, 2.5 ); 
+const geometry3 = new THREE.BoxGeometry( 5, 7, 4 ); 
 const material3 = new THREE.MeshBasicMaterial( {color: 0x00fff0} ); 
 const LeftArm = new THREE.Mesh( geometry3, material3 ); 
-LeftArm.position.x = -6;
-LeftArm.position.y = -4;
+LeftArm.position.x = -7;
+LeftArm.position.y = 3;
 LeftArm.rotation.z = -0.5;
 //Legs
 const geometry4 = new THREE.ConeGeometry( 6, 15, 32 ); 
-const material4 = new THREE.MeshBasicMaterial( {color: 0x000000} );
+const material4 = new THREE.MeshBasicMaterial( {color: 0x0ff000} );
 const Legs = new THREE.Mesh(geometry4, material4 ); 
-Legs.position.y = -4
-
+Legs.rotation.x = 11;
+Legs.position.y = 3;
+Legs.position.z = -2;
 
 
 //add to scene
@@ -104,21 +110,32 @@ const floor = new THREE.Mesh( geometry6, material6 );
 floor.rotation.x = 1.6;
 floor.position.y = -16;
 scene.add( floor );
+
+
+//enemy projectile to avoid
+const geometry10 = new THREE.SphereGeometry( 15, 32, 16 ); 
+const material10 = new THREE.MeshBasicMaterial( { color: 0xffff00 } ); 
+const bullet = new THREE.Mesh( geometry10, material10 );
+ scene.add( bullet );
+ bullet.position.z = -150;
+ bullet.position.y = 10;
+
+ 
 //////////////////////////////////////////////////////////////////////////////////////////////////////
 //create many random objects
 const createManyObjs=()=>
 {
 	const geometry = new THREE.SphereGeometry();
 	const objects = [];
-	for (let i = 0; i < 20; i++)
+	for (let i = 0; i < 8; i++)
 	{
 		const material2 = new THREE.MeshPhongMaterial({color:0x2eabef});
 
 const object = new THREE.Mesh(geometry, material2 );
 //random position
-object.position.x = Math.random() * 400 - 200;
-object.position.y = Math.random() * 50;
-object.position.z = Math.random() * 100 - 250;
+object.position.x = Math.random() * 200 - 100;
+object.position.y = Math.random() * 20;
+object.position.z = Math.random() *-180 -230;
 //random scale
 object.scale.x = Math.random() + 50 - 40;
 object.scale.y = Math.random() + 20 - 10;
@@ -137,34 +154,87 @@ const animateObjects = (objects) => {
 	
 	objects.forEach((object) => {
 	  // movment for objects
-	  object.position.z += 0.4; 
-  
+	  object.position.z += 0.5; 
+
+	  if(object.position.z >= 300)
+	  {
+		object.position.z = Math.random() *-200 -250;
+		object.position.x =  Math.random() * 180 - 230;
+		object.scale.z = Math.random() + 20;
+	  }
+	  
 	});
   };
 
 const objects = createManyObjs();
 animateObjects(objects);
 
+/////////////////////////////////////////////////////////////////////////////////////////////////
+const createManyObjs2=()=>
+	{
+		const geometry = new THREE.SphereGeometry();
+		const objects2 = [];
+		for (let i = 0; i < 8; i++)
+		{
+			const material = new THREE.MeshPhongMaterial({color:0x2eabef});
+	
+	const object2 = new THREE.Mesh(geometry, material );
+	//random position
+	object2.position.x = Math.random() * 200 - 100;
+	object2.position.y = Math.random() * 20;
+	object2.position.z = Math.random() *-400 -450;
+	//random scale
+	object2.scale.x = Math.random() + 50 - 40;
+	object2.scale.y = Math.random() + 20 - 10;
+	object2.scale.z = Math.random() + 20;
+	
+	object2.material.color.setHex(Math.random() * 0xffffff);
+	scene.add(object2);
+	
+		objects2.push(object2);
+		}
+		return objects2;
+	}
+	//move objects 
+	const animateObjects2 = (objects) => {
+		requestAnimationFrame(() => animateObjects2(objects2)); // Continuously animate
+		
+		objects2.forEach((object2) => {
+		  // movment for objects
+		  object2.position.z += 0.5; 
+	
+		  if(object2.position.z >= 300)
+		  {
+			object2.position.z = Math.random() *-350 -300;
+			object2.position.x =  Math.random() * 200 - 100;
+			object2.scale.z = Math.random() + 20;
+		  }
+		  
+		});
+	  };
+	
+	const objects2 = createManyObjs2();
+	animateObjects2(objects2);
 
 //////////////////////////////////////////////////////////////////////////////////////////////////
 
 // create sphere of points
-const pointgeometry = new THREE.SphereGeometry(20,40,20);
+const pointgeometry = new THREE.SphereGeometry(200,800,4);
 
-const newmaterial = new THREE.PointsMaterial({color:'blue', size:0.5});
+const newmaterial = new THREE.PointsMaterial({color:'blue', size:5});
 let pointobj = new THREE.Points(pointgeometry, newmaterial);
 scene.add(pointobj);
-pointobj.position.y = 0;
+pointobj.position.y = -50;
+pointobj.rotation.x = 20.9;
 //create scecond bigger sphere around the first
-let mesh2 = pointobj.clone();
-mesh2.scale.set(2,2,2);
-scene.add(mesh2);
+//let mesh2 = pointobj.clone();
+//mesh2.scale.set(2,2,2);
+//scene.add(mesh2);
 
 
 
 //////////////////////////////////////////////////////////////////////////////////////////////////////
-//change camera position
-camera.position.z = 50;
+
 
 
 const addPlane = (x,y,w,h, materialaspect) => {
@@ -189,7 +259,7 @@ const materialAspectfloor = {
 	side: THREE.DoubleSide,
 	transparent:true
 }
-addPlane(0, -3.6, 60, 60, materialAspectfloor);
+addPlane(0, -3.6, 160, 160, materialAspectfloor);
 
 ////////////////////////////////////////////////////////////////////////////////////////////////////
 
@@ -276,29 +346,40 @@ function animate() {
 	//requestAnimationFrame (animate);
 	stats.update(); // update stats
 
-	pointobj.rotation.x += 0.01;
-	mesh2.rotation.y += 0.01
-
-	Head.rotation.x += 0.05;
-	
+	pointobj.rotation.y += 0.01;
 	
 
+	Head.rotation.y += 0.05;
+	
+	bullet.position.z += 1;
+	bullet.rotation.y += 0.5;
+
+	if(bullet.position.z >= 200) 
+		{
+			bullet.position.x = Math.random() * 200 - 100;
+		   bullet.position.z = -200;
+		}
+
+
+		 
 	if(upstate)
 	{
 		group.position.x -= 0.6;
+		camera.position.x -= 0.6;
 		
 	} 
 	
 	else if(right)
 		{
 			group.position.x += 0.6;
-			
+			camera.position.x += 0.6;
 		} 
 
 
 	if (downstate)
 	{
 		group.position.y -= 0;
+		camera.position.y -= 0;
 	}
 
 	

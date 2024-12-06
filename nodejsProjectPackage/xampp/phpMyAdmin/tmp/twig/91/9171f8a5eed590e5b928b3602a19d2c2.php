@@ -150,6 +150,6 @@ echo _gettext("Pick from Central Columns");
 
     public function getSourceContext()
     {
-        return new Source("", "columns_definitions/column_name.twig", "D:\\WebGame3.0\\nodejsProjectPackage\\xampp\\phpMyAdmin\\templates\\columns_definitions\\column_name.twig");
+        return new Source("", "columns_definitions/column_name.twig", "C:\\Users\\S23127650\\WEBGAME3.0\\WebGame3.0\\nodejsProjectPackage\\xampp\\phpMyAdmin\\templates\\columns_definitions\\column_name.twig");
     }
 }

@@ -497,6 +497,6 @@ echo _gettext("Storage engine");
 
     public function getSourceContext()
     {
-        return new Source("", "columns_definitions/partitions.twig", "D:\\WebGame3.0\\nodejsProjectPackage\\xampp\\phpMyAdmin\\templates\\columns_definitions\\partitions.twig");
+        return new Source("", "columns_definitions/partitions.twig", "C:\\Users\\S23127650\\WEBGAME3.0\\WebGame3.0\\nodejsProjectPackage\\xampp\\phpMyAdmin\\templates\\columns_definitions\\partitions.twig");
     }
 }
