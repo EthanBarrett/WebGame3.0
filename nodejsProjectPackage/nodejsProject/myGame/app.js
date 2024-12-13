@@ -11,6 +11,9 @@ var con = mysql.createConnection({
   database: "cmp5360"
 });
 
+//set up game
+app.use(express.static('myGame'));
+
 con.connect(function(err) {
   if (err) throw err;
   console.log("Connected!");
@@ -31,6 +34,13 @@ app.get('/some', (req, res) => {
   app.get('/test', (req, res) => {
     res.send('This is test page')
   })
+
+//the 404 route
+app.get('*', function(req, res){
+  __dirname
+  console.log(__dirname);
+  res.status(404).sendFile(__dirname +'/404page.html');
+});
 
 app.listen(port, () => {
   console.log(`Example app listening at http://localhost:${port}`)

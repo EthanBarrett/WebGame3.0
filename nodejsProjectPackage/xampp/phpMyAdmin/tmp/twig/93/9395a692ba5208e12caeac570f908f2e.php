@@ -115,6 +115,6 @@ class __TwigTemplate_197f366df590e623de8640c315573c19 extends Template
 
     public function getSourceContext()
     {
-        return new Source("", "columns_definitions/column_attribute.twig", "D:\\WebGame3.0\\nodejsProjectPackage\\xampp\\phpMyAdmin\\templates\\columns_definitions\\column_attribute.twig");
+        return new Source("", "columns_definitions/column_attribute.twig", "C:\\Users\\S23127650\\WEBGAME3.0\\WebGame3.0\\nodejsProjectPackage\\xampp\\phpMyAdmin\\templates\\columns_definitions\\column_attribute.twig");
     }
 }

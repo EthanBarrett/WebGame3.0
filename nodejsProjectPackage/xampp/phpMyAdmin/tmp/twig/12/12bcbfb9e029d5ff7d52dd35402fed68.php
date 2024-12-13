@@ -83,6 +83,6 @@ class __TwigTemplate_9bcba131b54e5f752b70f6a6bfd2ce22 extends Template
 
     public function getSourceContext()
     {
-        return new Source("", "navigation/tree/state.twig", "D:\\WebGame3.0\\nodejsProjectPackage\\xampp\\phpMyAdmin\\templates\\navigation\\tree\\state.twig");
+        return new Source("", "navigation/tree/state.twig", "C:\\Users\\S23127650\\WEBGAME3.0\\WebGame3.0\\nodejsProjectPackage\\xampp\\phpMyAdmin\\templates\\navigation\\tree\\state.twig");
     }
 }

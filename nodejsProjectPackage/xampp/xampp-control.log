@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 21:16:52  [main] 	Initializing Control Panel
 21:16:52  [main] 	Windows Version:  Home  64-bit
 21:16:52  [main] 	XAMPP Version: 8.2.12
@@ -36,4 +37,91 @@
 21:23:59  [Apache] 	Status change detected: stopped
 23:04:18  [main] 	Deinitializing Modules
 23:04:18  [main] 	Deinitializing Control Panel
+=======
+14:04:05  [main] 	Initializing Control Panel
+14:04:05  [main] 	Windows Version:  Enterprise  64-bit
+14:04:05  [main] 	XAMPP Version: 8.2.12
+14:04:05  [main] 	Control Panel Version: 3.3.0  [ Compiled: Apr 6th 2021 ]
+14:04:05  [main] 	You are not running with administrator rights! This will work for
+14:04:05  [main] 	most application stuff but whenever you do something with services
+14:04:05  [main] 	there will be a security dialogue or things will break! So think 
+14:04:05  [main] 	about running this application with administrator rights!
+14:04:05  [main] 	XAMPP Installation Directory: "c:\users\s23127650\webgame3.0\webgame3.0\nodejsprojectpackage\xampp\"
+14:04:05  [main] 	Checking for prerequisites
+14:04:06  [main] 	All prerequisites found
+14:04:06  [main] 	Initializing Modules
+14:04:06  [main] 	The FileZilla module is disabled
+14:04:06  [main] 	The Mercury module is disabled
+14:04:06  [Tomcat] 	Problem detected!
+14:04:06  [Tomcat] 	Port 8005 in use by "Unable to open process"!
+14:04:06  [Tomcat] 	Tomcat WILL NOT start without the configured ports free!
+14:04:06  [Tomcat] 	You need to uninstall/disable/reconfigure the blocking application
+14:04:06  [Tomcat] 	or reconfigure Tomcat and the Control Panel to listen on a different port
+14:04:06  [main] 	Starting Check-Timer
+14:04:06  [main] 	Control Panel Ready
+14:04:12  [Apache] 	Attempting to start Apache app...
+14:04:15  [mysql] 	Attempting to start MySQL app...
+14:04:15  [mysql] 	Status change detected: running
+14:04:15  [mysql] 	Status change detected: stopped
+14:04:15  [mysql] 	Error: MySQL shutdown unexpectedly.
+14:04:15  [mysql] 	This may be due to a blocked port, missing dependencies, 
+14:04:15  [mysql] 	improper privileges, a crash, or a shutdown by another method.
+14:04:15  [mysql] 	Press the Logs button to view error logs and check
+14:04:15  [mysql] 	the Windows Event Viewer for more clues
+14:04:15  [mysql] 	If you need more help, copy and post this
+14:04:15  [mysql] 	entire log window on the forums
+14:04:38  [Apache] 	Attempting to start Apache app...
+14:04:38  [Apache] 	Status change detected: running
+14:04:39  [Apache] 	Status change detected: stopped
+14:04:39  [Apache] 	Error: Apache shutdown unexpectedly.
+14:04:39  [Apache] 	This may be due to a blocked port, missing dependencies, 
+14:04:39  [Apache] 	improper privileges, a crash, or a shutdown by another method.
+14:04:39  [Apache] 	Press the Logs button to view error logs and check
+14:04:39  [Apache] 	the Windows Event Viewer for more clues
+14:04:39  [Apache] 	If you need more help, copy and post this
+14:04:39  [Apache] 	entire log window on the forums
+14:04:39  [mysql] 	Attempting to start MySQL app...
+14:07:52  [Apache] 	Attempting to start Apache app...
+14:07:52  [Apache] 	Status change detected: running
+14:07:52  [Apache] 	Status change detected: stopped
+14:07:52  [Apache] 	Error: Apache shutdown unexpectedly.
+14:07:52  [Apache] 	This may be due to a blocked port, missing dependencies, 
+14:07:52  [Apache] 	improper privileges, a crash, or a shutdown by another method.
+14:07:52  [Apache] 	Press the Logs button to view error logs and check
+14:07:52  [Apache] 	the Windows Event Viewer for more clues
+14:07:52  [Apache] 	If you need more help, copy and post this
+14:07:52  [Apache] 	entire log window on the forums
+14:07:56  [mysql] 	Attempting to start MySQL app...
+14:07:58  [Apache] 	Attempting to start Apache app...
+14:07:58  [Apache] 	Status change detected: running
+14:07:59  [Apache] 	Status change detected: stopped
+14:07:59  [Apache] 	Error: Apache shutdown unexpectedly.
+14:07:59  [Apache] 	This may be due to a blocked port, missing dependencies, 
+14:07:59  [Apache] 	improper privileges, a crash, or a shutdown by another method.
+14:07:59  [Apache] 	Press the Logs button to view error logs and check
+14:07:59  [Apache] 	the Windows Event Viewer for more clues
+14:07:59  [Apache] 	If you need more help, copy and post this
+14:07:59  [Apache] 	entire log window on the forums
+14:07:59  [mysql] 	Attempting to start MySQL app...
+14:08:33  [Apache] 	Status change detected: running
+14:08:34  [mysql] 	Status change detected: running
+16:47:37  [mysql] 	Status change detected: stopped
+16:47:37  [mysql] 	Error: MySQL shutdown unexpectedly.
+16:47:37  [mysql] 	This may be due to a blocked port, missing dependencies, 
+16:47:37  [mysql] 	improper privileges, a crash, or a shutdown by another method.
+16:47:37  [mysql] 	Press the Logs button to view error logs and check
+16:47:37  [mysql] 	the Windows Event Viewer for more clues
+16:47:37  [mysql] 	If you need more help, copy and post this
+16:47:37  [mysql] 	entire log window on the forums
+16:47:37  [Apache] 	Status change detected: stopped
+16:47:37  [Apache] 	Error: Apache shutdown unexpectedly.
+16:47:37  [Apache] 	This may be due to a blocked port, missing dependencies, 
+16:47:37  [Apache] 	improper privileges, a crash, or a shutdown by another method.
+16:47:37  [Apache] 	Press the Logs button to view error logs and check
+16:47:37  [Apache] 	the Windows Event Viewer for more clues
+16:47:37  [Apache] 	If you need more help, copy and post this
+16:47:37  [Apache] 	entire log window on the forums
+16:48:12  [main] 	Deinitializing Modules
+16:48:12  [main] 	Deinitializing Control Panel
+>>>>>>> b96f8646079b3e00c05bfdb91e0fc000d4592d32
 
