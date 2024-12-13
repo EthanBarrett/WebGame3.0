@@ -34,10 +34,10 @@ REM ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE
 REM POSSIBILITY OF SUCH DAMAGE.
 REM
 
-if "%PHPBIN%" == "" set PHPBIN=\Users\S23127650\WEBGAME3.0\WebGame3.0\nodejsProjectPackage\xampp\php\.\php.exe
+if "%PHPBIN%" == "" set PHPBIN=\WebGame3.0\nodejsProjectPackage\xampp\php\.\php.exe
 if not exist "%PHPBIN%" if "%PHP_PEAR_PHP_BIN%" neq "" goto USE_PEAR_PATH
 GOTO RUN
 :USE_PEAR_PATH
 set PHPBIN=%PHP_PEAR_PHP_BIN%
 :RUN
-"%PHPBIN%" "\Users\S23127650\WEBGAME3.0\WebGame3.0\nodejsProjectPackage\xampp\php\phpunit" %*
+"%PHPBIN%" "\WebGame3.0\nodejsProjectPackage\xampp\php\phpunit" %*

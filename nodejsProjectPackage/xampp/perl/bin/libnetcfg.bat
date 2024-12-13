@@ -26,7 +26,7 @@ goto endofperl
 @rem ';
 #!perl
 #line 29
-    eval 'exec \Users\S23127650\WEBGAME3.0\WebGame3.0\nodejsProjectPackage\xampp\perl\bin\perl.exe -S $0 ${1+"$@"}'
+    eval 'exec \WebGame3.0\nodejsProjectPackage\xampp\perl\bin\perl.exe -S $0 ${1+"$@"}'
 	if $running_under_some_shell;
 
 =head1 NAME

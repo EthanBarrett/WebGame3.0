@@ -1,4 +1,4 @@
-#!"\Users\S23127650\WEBGAME3.0\WebGame3.0\nodejsProjectPackage\xampp\perl\bin\perl.exe"
+#!"\WebGame3.0\nodejsProjectPackage\xampp\perl\bin\perl.exe"
 ##
 ##  printenv -- demo CGI program which just prints its environment
 ##
