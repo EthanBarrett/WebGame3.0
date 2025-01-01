@@ -117,3 +117,23 @@
 [Wed Jan 01 20:17:36.970436 2025] [ssl:warn] [pid 14240:tid 368] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
 [Wed Jan 01 20:17:37.094337 2025] [ssl:warn] [pid 14240:tid 368] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
 [Wed Jan 01 20:17:37.135858 2025] [mpm_winnt:notice] [pid 14240:tid 368] AH00354: Child: Starting 150 worker threads.
+[Wed Jan 01 20:21:07.585829 2025] [ssl:warn] [pid 39400:tid 376] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Wed Jan 01 20:21:07.896742 2025] [core:warn] [pid 39400:tid 376] AH00098: pid file D:/WebGame3.0/nodejsProjectPackage/xampp/apache/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Wed Jan 01 20:21:07.900420 2025] [ssl:warn] [pid 39400:tid 376] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Wed Jan 01 20:21:07.938522 2025] [mpm_winnt:notice] [pid 39400:tid 376] AH00455: Apache/2.4.58 (Win64) OpenSSL/3.1.3 PHP/8.2.12 configured -- resuming normal operations
+[Wed Jan 01 20:21:07.938576 2025] [mpm_winnt:notice] [pid 39400:tid 376] AH00456: Apache Lounge VS17 Server built: Oct 18 2023 13:03:18
+[Wed Jan 01 20:21:07.938576 2025] [core:notice] [pid 39400:tid 376] AH00094: Command line: 'd:\\webgame3.0\\nodejsprojectpackage\\xampp\\apache\\bin\\httpd.exe -d D:/WebGame3.0/nodejsProjectPackage/xampp/apache'
+[Wed Jan 01 20:21:08.033141 2025] [mpm_winnt:notice] [pid 39400:tid 376] AH00418: Parent: Created child process 35112
+[Wed Jan 01 20:21:08.679807 2025] [ssl:warn] [pid 35112:tid 400] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Wed Jan 01 20:21:08.809223 2025] [ssl:warn] [pid 35112:tid 400] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Wed Jan 01 20:21:08.849920 2025] [mpm_winnt:notice] [pid 35112:tid 400] AH00354: Child: Starting 150 worker threads.
+[Wed Jan 01 20:24:48.315269 2025] [ssl:warn] [pid 42916:tid 372] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Wed Jan 01 20:24:48.466027 2025] [core:warn] [pid 42916:tid 372] AH00098: pid file D:/WebGame3.0/nodejsProjectPackage/xampp/apache/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Wed Jan 01 20:24:48.470014 2025] [ssl:warn] [pid 42916:tid 372] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Wed Jan 01 20:24:48.506228 2025] [mpm_winnt:notice] [pid 42916:tid 372] AH00455: Apache/2.4.58 (Win64) OpenSSL/3.1.3 PHP/8.2.12 configured -- resuming normal operations
+[Wed Jan 01 20:24:48.506228 2025] [mpm_winnt:notice] [pid 42916:tid 372] AH00456: Apache Lounge VS17 Server built: Oct 18 2023 13:03:18
+[Wed Jan 01 20:24:48.506228 2025] [core:notice] [pid 42916:tid 372] AH00094: Command line: 'd:\\webgame3.0\\nodejsprojectpackage\\xampp\\apache\\bin\\httpd.exe -d D:/WebGame3.0/nodejsProjectPackage/xampp/apache'
+[Wed Jan 01 20:24:48.599447 2025] [mpm_winnt:notice] [pid 42916:tid 372] AH00418: Parent: Created child process 22348
+[Wed Jan 01 20:24:49.061781 2025] [ssl:warn] [pid 22348:tid 372] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Wed Jan 01 20:24:49.178821 2025] [ssl:warn] [pid 22348:tid 372] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Wed Jan 01 20:24:49.221985 2025] [mpm_winnt:notice] [pid 22348:tid 372] AH00354: Child: Starting 150 worker threads.
