@@ -92,3 +92,22 @@
 2024-12-13 12:03:47 0 [Note] Plugin 'FEEDBACK' is disabled.
 2024-12-13 12:03:48 0 [Note] InnoDB: Buffer pool(s) load completed at 241213 12:03:48
 2024-12-13 12:03:48 0 [Note] Server socket created on IP: '::'.
+2024-12-13 13:04:21 0 [Note] Starting MariaDB 10.4.32-MariaDB source revision c4143f909528e3fab0677a28631d10389354c491 as process 12204
+2024-12-13 13:04:21 0 [Note] InnoDB: Mutexes and rw_locks use Windows interlocked functions
+2024-12-13 13:04:21 0 [Note] InnoDB: Uses event mutexes
+2024-12-13 13:04:21 0 [Note] InnoDB: Compressed tables use zlib 1.3
+2024-12-13 13:04:21 0 [Note] InnoDB: Number of pools: 1
+2024-12-13 13:04:21 0 [Note] InnoDB: Using SSE2 crc32 instructions
+2024-12-13 13:04:21 0 [Note] InnoDB: Initializing buffer pool, total size = 16M, instances = 1, chunk size = 16M
+2024-12-13 13:04:21 0 [Note] InnoDB: Completed initialization of buffer pool
+2024-12-13 13:04:21 0 [Note] InnoDB: Starting crash recovery from checkpoint LSN=309081
+2024-12-13 13:04:21 0 [Note] InnoDB: 128 out of 128 rollback segments are active.
+2024-12-13 13:04:21 0 [Note] InnoDB: Removed temporary tablespace data file: "ibtmp1"
+2024-12-13 13:04:21 0 [Note] InnoDB: Creating shared tablespace for temporary tables
+2024-12-13 13:04:21 0 [Note] InnoDB: Setting file '\Users\S23127650\WEBGAME3.0\WebGame3.0\nodejsProjectPackage\xampp\mysql\data\ibtmp1' size to 12 MB. Physically writing the file full; Please wait ...
+2024-12-13 13:04:21 0 [Note] InnoDB: File '\Users\S23127650\WEBGAME3.0\WebGame3.0\nodejsProjectPackage\xampp\mysql\data\ibtmp1' size is now 12 MB.
+2024-12-13 13:04:21 0 [Note] InnoDB: 10.4.32 started; log sequence number 309090; transaction id 275
+2024-12-13 13:04:21 0 [Note] InnoDB: Loading buffer pool(s) from C:\Users\S23127650\WEBGAME3.0\WebGame3.0\nodejsProjectPackage\xampp\mysql\data\ib_buffer_pool
+2024-12-13 13:04:21 0 [Note] Plugin 'FEEDBACK' is disabled.
+2024-12-13 13:04:21 0 [Note] InnoDB: Buffer pool(s) load completed at 241213 13:04:21
+2024-12-13 13:04:21 0 [Note] Server socket created on IP: '::'.
