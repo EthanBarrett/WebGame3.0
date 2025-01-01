@@ -1,4 +1,4 @@
-DIR = \Users\S23127650\WEBGAME3.0\WebGame3.0\nodejsProjectPackage\xampp
+DIR = \WebGame3.0\nodejsProjectPackage\xampp
 xampp = 8.2.12
 
 server = 1.8.0

@@ -111,3 +111,177 @@
 2024-12-13 13:04:21 0 [Note] Plugin 'FEEDBACK' is disabled.
 2024-12-13 13:04:21 0 [Note] InnoDB: Buffer pool(s) load completed at 241213 13:04:21
 2024-12-13 13:04:21 0 [Note] Server socket created on IP: '::'.
+2025-01-01 20:08:30 0 [Note] Starting MariaDB 10.4.32-MariaDB source revision c4143f909528e3fab0677a28631d10389354c491 as process 38832
+2025-01-01 20:08:30 0 [Note] InnoDB: Mutexes and rw_locks use Windows interlocked functions
+2025-01-01 20:08:30 0 [Note] InnoDB: Uses event mutexes
+2025-01-01 20:08:30 0 [Note] InnoDB: Compressed tables use zlib 1.3
+2025-01-01 20:08:30 0 [Note] InnoDB: Number of pools: 1
+2025-01-01 20:08:30 0 [Note] InnoDB: Using SSE2 crc32 instructions
+2025-01-01 20:08:30 0 [Note] InnoDB: Initializing buffer pool, total size = 16M, instances = 1, chunk size = 16M
+2025-01-01 20:08:30 0 [Note] InnoDB: Completed initialization of buffer pool
+2025-01-01 20:08:30 0 [Note] InnoDB: Starting crash recovery from checkpoint LSN=309527
+2025-01-01 20:08:32 0 [Note] InnoDB: 128 out of 128 rollback segments are active.
+2025-01-01 20:08:32 0 [Note] InnoDB: Removed temporary tablespace data file: "ibtmp1"
+2025-01-01 20:08:32 0 [Note] InnoDB: Creating shared tablespace for temporary tables
+2025-01-01 20:08:32 0 [Note] InnoDB: Setting file '\WebGame3.0\nodejsProjectPackage\xampp\mysql\data\ibtmp1' size to 12 MB. Physically writing the file full; Please wait ...
+2025-01-01 20:08:32 0 [Note] InnoDB: File '\WebGame3.0\nodejsProjectPackage\xampp\mysql\data\ibtmp1' size is now 12 MB.
+2025-01-01 20:08:32 0 [Note] InnoDB: Waiting for purge to start
+2025-01-01 20:08:32 0 [Note] InnoDB: 10.4.32 started; log sequence number 309536; transaction id 298
+2025-01-01 20:08:32 0 [Note] Plugin 'FEEDBACK' is disabled.
+2025-01-01 20:08:32 0 [Note] InnoDB: Loading buffer pool(s) from D:\WebGame3.0\nodejsProjectPackage\xampp\mysql\data\ib_buffer_pool
+2025-01-01 20:08:32 0 [Note] Server socket created on IP: '::'.
+2025-01-01 20:08:42 0 [Note] Starting MariaDB 10.4.32-MariaDB source revision c4143f909528e3fab0677a28631d10389354c491 as process 35664
+2025-01-01 20:08:42 0 [Note] InnoDB: Mutexes and rw_locks use Windows interlocked functions
+2025-01-01 20:08:42 0 [Note] InnoDB: Uses event mutexes
+2025-01-01 20:08:42 0 [Note] InnoDB: Compressed tables use zlib 1.3
+2025-01-01 20:08:42 0 [Note] InnoDB: Number of pools: 1
+2025-01-01 20:08:42 0 [Note] InnoDB: Using SSE2 crc32 instructions
+2025-01-01 20:08:42 0 [Note] InnoDB: Initializing buffer pool, total size = 16M, instances = 1, chunk size = 16M
+2025-01-01 20:08:42 0 [Note] InnoDB: Completed initialization of buffer pool
+2025-01-01 20:08:42 0 [Note] InnoDB: Starting crash recovery from checkpoint LSN=309527
+2025-01-01 20:08:44 0 [Note] InnoDB: 128 out of 128 rollback segments are active.
+2025-01-01 20:08:44 0 [Note] InnoDB: Removed temporary tablespace data file: "ibtmp1"
+2025-01-01 20:08:44 0 [Note] InnoDB: Creating shared tablespace for temporary tables
+2025-01-01 20:08:44 0 [Note] InnoDB: Setting file '\WebGame3.0\nodejsProjectPackage\xampp\mysql\data\ibtmp1' size to 12 MB. Physically writing the file full; Please wait ...
+2025-01-01 20:08:44 0 [Note] InnoDB: File '\WebGame3.0\nodejsProjectPackage\xampp\mysql\data\ibtmp1' size is now 12 MB.
+2025-01-01 20:08:44 0 [Note] InnoDB: Waiting for purge to start
+2025-01-01 20:08:44 0 [Note] InnoDB: 10.4.32 started; log sequence number 309536; transaction id 298
+2025-01-01 20:08:44 0 [Note] InnoDB: Loading buffer pool(s) from D:\WebGame3.0\nodejsProjectPackage\xampp\mysql\data\ib_buffer_pool
+2025-01-01 20:08:44 0 [Note] Plugin 'FEEDBACK' is disabled.
+2025-01-01 20:08:44 0 [Note] Server socket created on IP: '::'.
+2025-01-01 20:09:07 0 [Note] Starting MariaDB 10.4.32-MariaDB source revision c4143f909528e3fab0677a28631d10389354c491 as process 5844
+2025-01-01 20:09:07 0 [Note] InnoDB: Mutexes and rw_locks use Windows interlocked functions
+2025-01-01 20:09:07 0 [Note] InnoDB: Uses event mutexes
+2025-01-01 20:09:07 0 [Note] InnoDB: Compressed tables use zlib 1.3
+2025-01-01 20:09:07 0 [Note] InnoDB: Number of pools: 1
+2025-01-01 20:09:07 0 [Note] InnoDB: Using SSE2 crc32 instructions
+2025-01-01 20:09:07 0 [Note] InnoDB: Initializing buffer pool, total size = 16M, instances = 1, chunk size = 16M
+2025-01-01 20:09:07 0 [Note] InnoDB: Completed initialization of buffer pool
+2025-01-01 20:09:08 0 [Note] InnoDB: 128 out of 128 rollback segments are active.
+2025-01-01 20:09:08 0 [Note] InnoDB: Creating shared tablespace for temporary tables
+2025-01-01 20:09:08 0 [Note] InnoDB: Setting file '\WebGame3.0\nodejsProjectPackage\xampp\mysql\data\ibtmp1' size to 12 MB. Physically writing the file full; Please wait ...
+2025-01-01 20:09:08 0 [Note] InnoDB: File '\WebGame3.0\nodejsProjectPackage\xampp\mysql\data\ibtmp1' size is now 12 MB.
+2025-01-01 20:09:08 0 [Note] InnoDB: Waiting for purge to start
+2025-01-01 20:09:08 0 [Note] InnoDB: 10.4.32 started; log sequence number 309545; transaction id 298
+2025-01-01 20:09:08 0 [Note] InnoDB: Loading buffer pool(s) from D:\WebGame3.0\nodejsProjectPackage\xampp\mysql\data\ib_buffer_pool
+2025-01-01 20:09:08 0 [Note] Plugin 'FEEDBACK' is disabled.
+2025-01-01 20:09:09 0 [Note] Server socket created on IP: '::'.
+2025-01-01 20:09:09 0x4e2c  InnoDB: Assertion failure in file D:\winx64-packages\build\src\storage\innobase\os\os0file.cc line 6132
+2025-01-01 20:09:09 0x979c  InnoDB: Assertion failure in file D:\winx64-packages\build\src\storage\innobase\os\os0file.cc line 6132
+InnoDB: Failing assertion: slot
+InnoDB: We intentionally generate a memory trap.
+InnoDB: Submit a detailed bug report to https://jira.mariadb.org/
+InnoDB: If you get repeated assertion failures or crashes, even
+InnoDB: immediately after the mysqld startup, there may be
+InnoDB: corruption in the InnoDB tablespace. Please refer to
+InnoDB: https://mariadb.com/kb/en/library/innodb-recovery-modes/
+InnoDB: about forcing recovery.
+2025-01-01 20:09:09 0x2528  InnoDB: Asse250101 20:09:09 [ERROR] mysqld got exception 0x80000003 ;
+Sorry, we probably made a mistake, and this is a bug.
+
+Your assistance in bug reporting will enable us to fix this for the next release.
+To report this bug, see https://mariadb.com/kb/en/reporting-bugs
+
+We will try our best to scrape up some info that will hopefully help
+diagnose the problem, but since we have already crashed, 
+something is definitely wrong and this may fail.
+
+Server version: 10.4.32-MariaDB source revision: c4143f909528e3fab0677a28631d10389354c491
+key_buffer_size=16777216
+read_buffer_size=262144
+max_used_connections=0
+max_threads=65537
+thread_count=6
+It is possible that mysqld could use up to 
+key_buffer_size + (read_buffer_size + sort_buffer_size)*max_threads = 20304 K  bytes of memory
+Hope that's ok; if not, decrease some variables in the equation.
+
+Thread pointer: 0x0
+Attempting backtrace. You can use the following information to find out
+where mysqld died. If you see no messages after this, something went
+terribly wrong...
+rtion failure in file D:\winx64-packages\build\src\storage\innobase\os\os0file.cc line 6132
+InnoDB: Failing assertion: slot
+InnoDB: We intentionally generate a memory trap.
+InnoDB: Submit a detailed bug report to https://jira.mariadb.org/
+InnoDB: If you get repeated assertion failures or crashes, even
+InnoDB: immediately after the mysqld startup, there may be
+InnoDB: corruption in the InnoDB tablespace. Please refer to
+InnoDB: https://mariadb.com/kb/en/library/innodb-recovery-modes/
+InnoDB: about forcing recovery.
+2025-01-01 20:10:30 0 [Note] Starting MariaDB 10.4.32-MariaDB source revision c4143f909528e3fab0677a28631d10389354c491 as process 24708
+2025-01-01 20:10:30 0 [Note] InnoDB: Mutexes and rw_locks use Windows interlocked functions
+2025-01-01 20:10:30 0 [Note] InnoDB: Uses event mutexes
+2025-01-01 20:10:30 0 [Note] InnoDB: Compressed tables use zlib 1.3
+2025-01-01 20:10:30 0 [Note] InnoDB: Number of pools: 1
+2025-01-01 20:10:30 0 [Note] InnoDB: Using SSE2 crc32 instructions
+2025-01-01 20:10:30 0 [Note] InnoDB: Initializing buffer pool, total size = 16M, instances = 1, chunk size = 16M
+2025-01-01 20:10:30 0 [Note] InnoDB: Completed initialization of buffer pool
+2025-01-01 20:10:32 0 [Note] InnoDB: 128 out of 128 rollback segments are active.
+2025-01-01 20:10:32 0 [Note] InnoDB: Removed temporary tablespace data file: "ibtmp1"
+2025-01-01 20:10:32 0 [Note] InnoDB: Creating shared tablespace for temporary tables
+2025-01-01 20:10:32 0 [Note] InnoDB: Setting file '\WebGame3.0\nodejsProjectPackage\xampp\mysql\data\ibtmp1' size to 12 MB. Physically writing the file full; Please wait ...
+2025-01-01 20:10:32 0 [Note] InnoDB: File '\WebGame3.0\nodejsProjectPackage\xampp\mysql\data\ibtmp1' size is now 12 MB.
+2025-01-01 20:10:32 0 [Note] InnoDB: Waiting for purge to start
+2025-01-01 20:10:32 0 [Note] InnoDB: 10.4.32 started; log sequence number 309545; transaction id 298
+2025-01-01 20:10:32 0 [Note] InnoDB: Loading buffer pool(s) from D:\WebGame3.0\nodejsProjectPackage\xampp\mysql\data\ib_buffer_pool
+2025-01-01 20:10:32 0 [Note] Plugin 'FEEDBACK' is disabled.
+2025-01-01 20:10:32 0 [Note] Server socket created on IP: '::'.
+2025-01-01 20:10:32 0 [ERROR] mysqld.exe: Table '.\mysql\global_priv' is marked as crashed and last (automatic?) repair failed
+2025-01-01 20:10:32 0 [ERROR] Fatal error: Can't open and lock privilege tables: Table '.\mysql\global_priv' is marked as crashed and last (automatic?) repair failed
+2025-01-01 20:10:32 0 [ERROR] Aborting
+2025-01-01 20:10:33 0 [ERROR] mysqld.exe: Error writing file '\WebGame3.0\nodejsProjectPackage\xampp\mysql\data\aria_log_control' (Errcode: 9 "Bad file descriptor")
+2025-01-01 20:10:33 0 [ERROR] mysqld.exe: Aria engine: checkpoint failed
+2025-01-01 20:10:33 0 [ERROR] mysqld.exe: Error writing file '\WebGame3.0\nodejsProjectPackage\xampp\mysql\data\aria_log_control' (Errcode: 9 "Bad file descriptor")
+2025-01-01 20:10:33 0 [ERROR] mysqld.exe: Error on close of '\WebGame3.0\nodejsProjectPackage\xampp\mysql\data\aria_log_control' (Errcode: 9 "Bad file descriptor")
+2025-01-01 20:13:50 0 [Note] Starting MariaDB 10.4.32-MariaDB source revision c4143f909528e3fab0677a28631d10389354c491 as process 42280
+2025-01-01 20:13:50 0 [Note] InnoDB: Mutexes and rw_locks use Windows interlocked functions
+2025-01-01 20:13:50 0 [Note] InnoDB: Uses event mutexes
+2025-01-01 20:13:50 0 [Note] InnoDB: Compressed tables use zlib 1.3
+2025-01-01 20:13:50 0 [Note] InnoDB: Number of pools: 1
+2025-01-01 20:13:50 0 [Note] InnoDB: Using SSE2 crc32 instructions
+2025-01-01 20:13:50 0 [Note] InnoDB: Initializing buffer pool, total size = 16M, instances = 1, chunk size = 16M
+2025-01-01 20:13:50 0 [Note] InnoDB: Completed initialization of buffer pool
+2025-01-01 20:13:52 0 [Note] InnoDB: 128 out of 128 rollback segments are active.
+2025-01-01 20:13:52 0 [Note] InnoDB: Creating shared tablespace for temporary tables
+2025-01-01 20:13:52 0 [Note] InnoDB: Setting file '\WebGame3.0\nodejsProjectPackage\xampp\mysql\data\ibtmp1' size to 12 MB. Physically writing the file full; Please wait ...
+2025-01-01 20:13:52 0 [Note] InnoDB: File '\WebGame3.0\nodejsProjectPackage\xampp\mysql\data\ibtmp1' size is now 12 MB.
+2025-01-01 20:13:52 0 [Note] InnoDB: Waiting for purge to start
+2025-01-01 20:13:52 0 [Note] InnoDB: 10.4.32 started; log sequence number 309554; transaction id 298
+2025-01-01 20:13:52 0 [Note] InnoDB: Loading buffer pool(s) from D:\WebGame3.0\nodejsProjectPackage\xampp\mysql\data\ib_buffer_pool
+2025-01-01 20:13:52 0 [Note] Plugin 'FEEDBACK' is disabled.
+2025-01-01 20:13:52 0 [Note] Server socket created on IP: '::'.
+2025-01-01 20:15:58 0 [Note] Starting MariaDB 10.4.32-MariaDB source revision c4143f909528e3fab0677a28631d10389354c491 as process 4448
+2025-01-01 20:15:58 0 [Note] InnoDB: Mutexes and rw_locks use Windows interlocked functions
+2025-01-01 20:15:58 0 [Note] InnoDB: Uses event mutexes
+2025-01-01 20:15:58 0 [Note] InnoDB: Compressed tables use zlib 1.3
+2025-01-01 20:15:58 0 [Note] InnoDB: Number of pools: 1
+2025-01-01 20:15:58 0 [Note] InnoDB: Using SSE2 crc32 instructions
+2025-01-01 20:15:58 0 [Note] InnoDB: Initializing buffer pool, total size = 16M, instances = 1, chunk size = 16M
+2025-01-01 20:15:58 0 [Note] InnoDB: Completed initialization of buffer pool
+2025-01-01 20:15:59 0 [Note] InnoDB: 128 out of 128 rollback segments are active.
+2025-01-01 20:15:59 0 [Note] InnoDB: Creating shared tablespace for temporary tables
+2025-01-01 20:15:59 0 [Note] InnoDB: Setting file '\WebGame3.0\nodejsProjectPackage\xampp\mysql\data\ibtmp1' size to 12 MB. Physically writing the file full; Please wait ...
+2025-01-01 20:15:59 0 [Note] InnoDB: File '\WebGame3.0\nodejsProjectPackage\xampp\mysql\data\ibtmp1' size is now 12 MB.
+2025-01-01 20:15:59 0 [Note] InnoDB: Waiting for purge to start
+2025-01-01 20:15:59 0 [Note] InnoDB: 10.4.32 started; log sequence number 309563; transaction id 298
+2025-01-01 20:15:59 0 [Note] InnoDB: Loading buffer pool(s) from D:\WebGame3.0\nodejsProjectPackage\xampp\mysql\data\ib_buffer_pool
+2025-01-01 20:15:59 0 [Note] Plugin 'FEEDBACK' is disabled.
+2025-01-01 20:15:59 0 [Note] Server socket created on IP: '::'.
+2025-01-01 20:17:37 0 [Note] Starting MariaDB 10.4.32-MariaDB source revision c4143f909528e3fab0677a28631d10389354c491 as process 42040
+2025-01-01 20:17:37 0 [Note] InnoDB: Mutexes and rw_locks use Windows interlocked functions
+2025-01-01 20:17:37 0 [Note] InnoDB: Uses event mutexes
+2025-01-01 20:17:37 0 [Note] InnoDB: Compressed tables use zlib 1.3
+2025-01-01 20:17:37 0 [Note] InnoDB: Number of pools: 1
+2025-01-01 20:17:37 0 [Note] InnoDB: Using SSE2 crc32 instructions
+2025-01-01 20:17:37 0 [Note] InnoDB: Initializing buffer pool, total size = 16M, instances = 1, chunk size = 16M
+2025-01-01 20:17:37 0 [Note] InnoDB: Completed initialization of buffer pool
+2025-01-01 20:17:38 0 [Note] InnoDB: 128 out of 128 rollback segments are active.
+2025-01-01 20:17:38 0 [Note] InnoDB: Creating shared tablespace for temporary tables
+2025-01-01 20:17:38 0 [Note] InnoDB: Setting file '\WebGame3.0\nodejsProjectPackage\xampp\mysql\data\ibtmp1' size to 12 MB. Physically writing the file full; Please wait ...
+2025-01-01 20:17:38 0 [Note] InnoDB: File '\WebGame3.0\nodejsProjectPackage\xampp\mysql\data\ibtmp1' size is now 12 MB.
+2025-01-01 20:17:38 0 [Note] InnoDB: Waiting for purge to start
+2025-01-01 20:17:38 0 [Note] InnoDB: 10.4.32 started; log sequence number 309572; transaction id 298
+2025-01-01 20:17:38 0 [Note] InnoDB: Loading buffer pool(s) from D:\WebGame3.0\nodejsProjectPackage\xampp\mysql\data\ib_buffer_pool
+2025-01-01 20:17:38 0 [Note] Plugin 'FEEDBACK' is disabled.
+2025-01-01 20:17:38 0 [Note] Server socket created on IP: '::'.

@@ -11,7 +11,7 @@
 @if %ErrorLevel% == 9009 @echo You do not have Perl in your PATH.
 @goto endofperl
 @rem ';
-#!\Users\S23127650\WEBGAME3.0\WebGame3.0\nodejsProjectPackage\xampp\perl\bin\perl.exe 
+#!\WebGame3.0\nodejsProjectPackage\xampp\perl\bin\perl.exe 
 #line 30
 
 use strict;
